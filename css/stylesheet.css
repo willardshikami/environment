@@ -54,7 +54,6 @@ table {
 body {
     font-family: 'lato';
     color: #fff;  
-    font-weight: 300;
 }
 
 .main-header {
@@ -94,4 +93,21 @@ nav ul li a {
 
 hr {
     width: 93%;
+}
+
+.header-mid h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 30px
+}
+
+.header-mid p{
+    font-size: 30px;
+    font-weight: 300;
+    padding-right: 150px;
+    padding-left: 100px;
+    line-height: normal;
+    padding-bottom: 200px;
+    text-align: center;
 }
