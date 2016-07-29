@@ -61,6 +61,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: 654px;
 }
 
 .navigation{
@@ -98,7 +99,7 @@ hr {
 .header-mid h1 {
     font-size: 40px;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 130px;
     padding-bottom: 30px
 }
 
@@ -108,6 +109,80 @@ hr {
     padding-right: 150px;
     padding-left: 100px;
     line-height: normal;
-    padding-bottom: 200px;
+    padding-bottom: 20px;
     text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+    nav {
+        text-align: center;
+        line-height: normal;
+    }
+    
+    nav {
+        text-align: center;
+        line-height: normal;
+    
+    }
+    
+    .header-mid p {
+    padding-right: 10px;
+    padding-left: 10px;
+    }
+}
+
+/*
+  ========================================
+  Button
+  ========================================
+*/
+
+.button {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.btn {
+    background: #196619;
+    border-radius: 35px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.btn-alt {
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.btn:hover {
+    border: 1px solid;
+}
+
+
+/*
+  ========================================
+  Social 
+  ========================================
+*/
+
+.social {
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    word-spacing: 20px;
+}
+
+.social a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: #333;
 }
