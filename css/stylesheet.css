@@ -186,3 +186,8 @@ hr {
 .social a:hover {
     color: #333;
 }
+
+.copyright {
+    line-height:normal; 
+    text-align: center
+}
