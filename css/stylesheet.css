@@ -133,6 +133,36 @@ hr {
 
 /*
   ========================================
+  CONTENT INSIDE AREA SECTION
+  ========================================
+*/
+
+.issues {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px
+}
+
+.col {
+    color: #000;
+    text-align: center;
+}
+
+.col h2 {
+    font-size: 25px;
+    padding: 15px;
+}
+
+.col p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+/*
+  ========================================
   Button
   ========================================
 */
