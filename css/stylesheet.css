@@ -320,11 +320,47 @@ hr {
 
 /*
   ========================================
-  SLIDER 
+  TABS
   ========================================
 */
 
-    
+
+.tabs {
+   background-image: url(../images/forests.jpg);
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 400px;
+}
+/*
+  ========================================
+  GRID OF TWO
+  ========================================
+*/
+
+
+.area_2_of_2 {
+	width: 100%;
+}
+
+.area_1_of_2 {
+	width: 49.2%;
+}
+
+/*
+  ========================================
+  GO FULL WIDTH AT LESS THAN 480 PIXELS
+  ========================================
+*/
+
+@media only screen and (max-width: 480px) {
+	.area_2_of_2 {
+		width: 100%; 
+	}
+	.area_1_of_2 {
+		width: 100%; 
+	}
+}
+
 
 /*
   ========================================
