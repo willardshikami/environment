@@ -328,6 +328,7 @@ hr {
 .tabs {
    background-image: url(../images/forests.jpg);
     background-size: cover;
+    background-attachment: fixed;
     padding-top: 30px;
     padding-bottom: 400px;
 }
@@ -343,12 +344,17 @@ hr {
 }
 
 .area_1_of_2 {
+    background: rgba(255, 255, 255, .5);
 	width: 49.2%;
+    padding-top: 60px;
+    padding-bottom: 60px
 }
 
-.col {
-    background-color: #
+.area_1_of_2 p {
+    padding-right: 10px;
+    padding-left: 10px
 }
+
 /*
   ========================================
   GO FULL WIDTH AT LESS THAN 480 PIXELS
